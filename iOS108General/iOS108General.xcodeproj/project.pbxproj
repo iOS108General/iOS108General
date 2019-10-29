@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D50B41A23680898001456A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D50B41923680898001456A2 /* AppDelegate.m */; };
+		1D50B41D23680898001456A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D50B41C23680898001456A2 /* ViewController.m */; };
+		1D50B42023680898001456A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D50B41E23680898001456A2 /* Main.storyboard */; };
+		1D50B42223680899001456A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D50B42123680899001456A2 /* Assets.xcassets */; };
+		1D50B42523680899001456A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D50B42323680899001456A2 /* LaunchScreen.storyboard */; };
+		1D50B42823680899001456A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D50B42723680899001456A2 /* main.m */; };
+		1D50B43823680FB4001456A2 /* UIApplication+CheckInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D50B43423680FB4001456A2 /* UIApplication+CheckInput.m */; };
+		1D50B43923680FB4001456A2 /* UITextField+CheckInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D50B43623680FB4001456A2 /* UITextField+CheckInput.m */; };
+		1D50B43A23680FB4001456A2 /* UITextView+CheckInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D50B43723680FB4001456A2 /* UITextView+CheckInput.m */; };
+		1DC28CC723681358008465BF /* InputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC28CC523681358008465BF /* InputViewController.m */; };
+		1DC28CC823681358008465BF /* InputViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DC28CC623681358008465BF /* InputViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D50B41523680898001456A2 /* iOS108General.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS108General.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D50B41823680898001456A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D50B41923680898001456A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D50B41B23680898001456A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1D50B41C23680898001456A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1D50B41F23680898001456A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D50B42123680899001456A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D50B42423680899001456A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D50B42623680899001456A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D50B42723680899001456A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D50B43223680FB4001456A2 /* UIApplication+CheckInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+CheckInput.h"; sourceTree = "<group>"; };
+		1D50B43323680FB4001456A2 /* UITextField+CheckInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+CheckInput.h"; sourceTree = "<group>"; };
+		1D50B43423680FB4001456A2 /* UIApplication+CheckInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+CheckInput.m"; sourceTree = "<group>"; };
+		1D50B43523680FB4001456A2 /* UITextView+CheckInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+CheckInput.h"; sourceTree = "<group>"; };
+		1D50B43623680FB4001456A2 /* UITextField+CheckInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+CheckInput.m"; sourceTree = "<group>"; };
+		1D50B43723680FB4001456A2 /* UITextView+CheckInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+CheckInput.m"; sourceTree = "<group>"; };
+		1DC28CC423681358008465BF /* InputViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputViewController.h; sourceTree = "<group>"; };
+		1DC28CC523681358008465BF /* InputViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputViewController.m; sourceTree = "<group>"; };
+		1DC28CC623681358008465BF /* InputViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InputViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D50B41223680898001456A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D50B40C23680898001456A2 = {
+			isa = PBXGroup;
+			children = (
+				1D50B41723680898001456A2 /* iOS108General */,
+				1D50B41623680898001456A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D50B41623680898001456A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D50B41523680898001456A2 /* iOS108General.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D50B41723680898001456A2 /* iOS108General */ = {
+			isa = PBXGroup;
+			children = (
+				1D50B42E23680959001456A2 /* InputHelper(文字输入检测) */,
+				1D50B41823680898001456A2 /* AppDelegate.h */,
+				1D50B41923680898001456A2 /* AppDelegate.m */,
+				1D50B41B23680898001456A2 /* ViewController.h */,
+				1D50B41C23680898001456A2 /* ViewController.m */,
+				1D50B41E23680898001456A2 /* Main.storyboard */,
+				1D50B42123680899001456A2 /* Assets.xcassets */,
+				1D50B42323680899001456A2 /* LaunchScreen.storyboard */,
+				1D50B42623680899001456A2 /* Info.plist */,
+				1D50B42723680899001456A2 /* main.m */,
+			);
+			path = iOS108General;
+			sourceTree = "<group>";
+		};
+		1D50B42E23680959001456A2 /* InputHelper(文字输入检测) */ = {
+			isa = PBXGroup;
+			children = (
+				1D50B43123680FA3001456A2 /* Catgory */,
+				1DC28CC423681358008465BF /* InputViewController.h */,
+				1DC28CC523681358008465BF /* InputViewController.m */,
+				1DC28CC623681358008465BF /* InputViewController.xib */,
+			);
+			path = "InputHelper(文字输入检测)";
+			sourceTree = "<group>";
+		};
+		1D50B43123680FA3001456A2 /* Catgory */ = {
+			isa = PBXGroup;
+			children = (
+				1D50B43223680FB4001456A2 /* UIApplication+CheckInput.h */,
+				1D50B43423680FB4001456A2 /* UIApplication+CheckInput.m */,
+				1D50B43323680FB4001456A2 /* UITextField+CheckInput.h */,
+				1D50B43623680FB4001456A2 /* UITextField+CheckInput.m */,
+				1D50B43523680FB4001456A2 /* UITextView+CheckInput.h */,
+				1D50B43723680FB4001456A2 /* UITextView+CheckInput.m */,
+			);
+			path = Catgory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D50B41423680898001456A2 /* iOS108General */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D50B42B23680899001456A2 /* Build configuration list for PBXNativeTarget "iOS108General" */;
+			buildPhases = (
+				1D50B41123680898001456A2 /* Sources */,
+				1D50B41223680898001456A2 /* Frameworks */,
+				1D50B41323680898001456A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS108General;
+			productName = iOS108General;
+			productReference = 1D50B41523680898001456A2 /* iOS108General.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D50B40D23680898001456A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = iOS108;
+				TargetAttributes = {
+					1D50B41423680898001456A2 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 1D50B41023680898001456A2 /* Build configuration list for PBXProject "iOS108General" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D50B40C23680898001456A2;
+			productRefGroup = 1D50B41623680898001456A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D50B41423680898001456A2 /* iOS108General */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D50B41323680898001456A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D50B42523680899001456A2 /* LaunchScreen.storyboard in Resources */,
+				1D50B42223680899001456A2 /* Assets.xcassets in Resources */,
+				1D50B42023680898001456A2 /* Main.storyboard in Resources */,
+				1DC28CC823681358008465BF /* InputViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D50B41123680898001456A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DC28CC723681358008465BF /* InputViewController.m in Sources */,
+				1D50B43823680FB4001456A2 /* UIApplication+CheckInput.m in Sources */,
+				1D50B41D23680898001456A2 /* ViewController.m in Sources */,
+				1D50B42823680899001456A2 /* main.m in Sources */,
+				1D50B43A23680FB4001456A2 /* UITextView+CheckInput.m in Sources */,
+				1D50B43923680FB4001456A2 /* UITextField+CheckInput.m in Sources */,
+				1D50B41A23680898001456A2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1D50B41E23680898001456A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D50B41F23680898001456A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D50B42323680899001456A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D50B42423680899001456A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D50B42923680899001456A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1D50B42A23680899001456A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D50B42C23680899001456A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOS108General/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS108General.iOS108General;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D50B42D23680899001456A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOS108General/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS108General.iOS108General;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D50B41023680898001456A2 /* Build configuration list for PBXProject "iOS108General" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D50B42923680899001456A2 /* Debug */,
+				1D50B42A23680899001456A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D50B42B23680899001456A2 /* Build configuration list for PBXNativeTarget "iOS108General" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D50B42C23680899001456A2 /* Debug */,
+				1D50B42D23680899001456A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D50B40D23680898001456A2 /* Project object */;
+}
