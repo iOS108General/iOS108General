@@ -33,7 +33,7 @@ static NSString *const funcVC = @"funcVC";
     self.dataArray = @[
                        @{
                            funcTitle : @"InputHelper(文字输入检测)",
-                           funcDec : @"通过",
+                           funcDec : @"利用分类去统一输入框的输入检测，利于维护",
                            funcVC : @"InputViewController"
                          },
                        ];
