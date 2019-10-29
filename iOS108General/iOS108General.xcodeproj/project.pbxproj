@@ -18,6 +18,9 @@
 		1D50B43A23680FB4001456A2 /* UITextView+CheckInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D50B43723680FB4001456A2 /* UITextView+CheckInput.m */; };
 		1DC28CC723681358008465BF /* InputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC28CC523681358008465BF /* InputViewController.m */; };
 		1DC28CC823681358008465BF /* InputViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DC28CC623681358008465BF /* InputViewController.xib */; };
+		1DC28CCD23683612008465BF /* NSString+DecimalNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC28CCC23683612008465BF /* NSString+DecimalNumber.m */; };
+		1DC28CD12368371A008465BF /* PrecisionNumberVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC28CCF2368371A008465BF /* PrecisionNumberVC.m */; };
+		1DC28CD22368371A008465BF /* PrecisionNumberVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DC28CD02368371A008465BF /* PrecisionNumberVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,11 @@
 		1DC28CC423681358008465BF /* InputViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputViewController.h; sourceTree = "<group>"; };
 		1DC28CC523681358008465BF /* InputViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputViewController.m; sourceTree = "<group>"; };
 		1DC28CC623681358008465BF /* InputViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InputViewController.xib; sourceTree = "<group>"; };
+		1DC28CCB23683612008465BF /* NSString+DecimalNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+DecimalNumber.h"; sourceTree = "<group>"; };
+		1DC28CCC23683612008465BF /* NSString+DecimalNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+DecimalNumber.m"; sourceTree = "<group>"; };
+		1DC28CCE2368371A008465BF /* PrecisionNumberVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrecisionNumberVC.h; sourceTree = "<group>"; };
+		1DC28CCF2368371A008465BF /* PrecisionNumberVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrecisionNumberVC.m; sourceTree = "<group>"; };
+		1DC28CD02368371A008465BF /* PrecisionNumberVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrecisionNumberVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +80,7 @@
 		1D50B41723680898001456A2 /* iOS108General */ = {
 			isa = PBXGroup;
 			children = (
+				1DC28CC9236835AD008465BF /* precisionNumber(对NSString进行扩展) */,
 				1D50B42E23680959001456A2 /* InputHelper(文字输入检测) */,
 				1D50B41823680898001456A2 /* AppDelegate.h */,
 				1D50B41923680898001456A2 /* AppDelegate.m */,
@@ -106,6 +115,26 @@
 				1D50B43623680FB4001456A2 /* UITextField+CheckInput.m */,
 				1D50B43523680FB4001456A2 /* UITextView+CheckInput.h */,
 				1D50B43723680FB4001456A2 /* UITextView+CheckInput.m */,
+			);
+			path = Catgory;
+			sourceTree = "<group>";
+		};
+		1DC28CC9236835AD008465BF /* precisionNumber(对NSString进行扩展) */ = {
+			isa = PBXGroup;
+			children = (
+				1DC28CCA236835DC008465BF /* Catgory */,
+				1DC28CCE2368371A008465BF /* PrecisionNumberVC.h */,
+				1DC28CCF2368371A008465BF /* PrecisionNumberVC.m */,
+				1DC28CD02368371A008465BF /* PrecisionNumberVC.xib */,
+			);
+			path = "precisionNumber(对NSString进行扩展)";
+			sourceTree = "<group>";
+		};
+		1DC28CCA236835DC008465BF /* Catgory */ = {
+			isa = PBXGroup;
+			children = (
+				1DC28CCB23683612008465BF /* NSString+DecimalNumber.h */,
+				1DC28CCC23683612008465BF /* NSString+DecimalNumber.m */,
 			);
 			path = Catgory;
 			sourceTree = "<group>";
@@ -171,6 +200,7 @@
 				1D50B42223680899001456A2 /* Assets.xcassets in Resources */,
 				1D50B42023680898001456A2 /* Main.storyboard in Resources */,
 				1DC28CC823681358008465BF /* InputViewController.xib in Resources */,
+				1DC28CD22368371A008465BF /* PrecisionNumberVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,10 +213,12 @@
 			files = (
 				1DC28CC723681358008465BF /* InputViewController.m in Sources */,
 				1D50B43823680FB4001456A2 /* UIApplication+CheckInput.m in Sources */,
+				1DC28CD12368371A008465BF /* PrecisionNumberVC.m in Sources */,
 				1D50B41D23680898001456A2 /* ViewController.m in Sources */,
 				1D50B42823680899001456A2 /* main.m in Sources */,
 				1D50B43A23680FB4001456A2 /* UITextView+CheckInput.m in Sources */,
 				1D50B43923680FB4001456A2 /* UITextField+CheckInput.m in Sources */,
+				1DC28CCD23683612008465BF /* NSString+DecimalNumber.m in Sources */,
 				1D50B41A23680898001456A2 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
