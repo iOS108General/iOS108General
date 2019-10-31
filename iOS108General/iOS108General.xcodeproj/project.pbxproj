@@ -21,6 +21,8 @@
 		1DC28CCD23683612008465BF /* NSString+DecimalNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC28CCC23683612008465BF /* NSString+DecimalNumber.m */; };
 		1DC28CD12368371A008465BF /* PrecisionNumberVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC28CCF2368371A008465BF /* PrecisionNumberVC.m */; };
 		1DC28CD22368371A008465BF /* PrecisionNumberVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DC28CD02368371A008465BF /* PrecisionNumberVC.xib */; };
+		1DC28CD9236B1860008465BF /* 改进建议.inputHelper in Resources */ = {isa = PBXBuildFile; fileRef = 1DC28CD8236B1860008465BF /* 改进建议.inputHelper */; };
+		1DC28CDB236B18C7008465BF /* 改进建议.precisionNumber in Resources */ = {isa = PBXBuildFile; fileRef = 1DC28CDA236B18C7008465BF /* 改进建议.precisionNumber */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,8 @@
 		1DC28CCE2368371A008465BF /* PrecisionNumberVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrecisionNumberVC.h; sourceTree = "<group>"; };
 		1DC28CCF2368371A008465BF /* PrecisionNumberVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrecisionNumberVC.m; sourceTree = "<group>"; };
 		1DC28CD02368371A008465BF /* PrecisionNumberVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrecisionNumberVC.xib; sourceTree = "<group>"; };
+		1DC28CD8236B1860008465BF /* 改进建议.inputHelper */ = {isa = PBXFileReference; lastKnownFileType = text; path = "改进建议.inputHelper"; sourceTree = "<group>"; };
+		1DC28CDA236B18C7008465BF /* 改进建议.precisionNumber */ = {isa = PBXFileReference; lastKnownFileType = text; path = "改进建议.precisionNumber"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,7 @@
 		1D50B42E23680959001456A2 /* InputHelper(文字输入检测) */ = {
 			isa = PBXGroup;
 			children = (
+				1DC28CD8236B1860008465BF /* 改进建议.inputHelper */,
 				1D50B43123680FA3001456A2 /* Catgory */,
 				1DC28CC423681358008465BF /* InputViewController.h */,
 				1DC28CC523681358008465BF /* InputViewController.m */,
@@ -122,6 +127,7 @@
 		1DC28CC9236835AD008465BF /* precisionNumber(对NSString进行扩展) */ = {
 			isa = PBXGroup;
 			children = (
+				1DC28CDA236B18C7008465BF /* 改进建议.precisionNumber */,
 				1DC28CCA236835DC008465BF /* Catgory */,
 				1DC28CCE2368371A008465BF /* PrecisionNumberVC.h */,
 				1DC28CCF2368371A008465BF /* PrecisionNumberVC.m */,
@@ -199,7 +205,9 @@
 				1D50B42523680899001456A2 /* LaunchScreen.storyboard in Resources */,
 				1D50B42223680899001456A2 /* Assets.xcassets in Resources */,
 				1D50B42023680898001456A2 /* Main.storyboard in Resources */,
+				1DC28CDB236B18C7008465BF /* 改进建议.precisionNumber in Resources */,
 				1DC28CC823681358008465BF /* InputViewController.xib in Resources */,
+				1DC28CD9236B1860008465BF /* 改进建议.inputHelper in Resources */,
 				1DC28CD22368371A008465BF /* PrecisionNumberVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

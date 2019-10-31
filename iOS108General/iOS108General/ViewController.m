@@ -36,6 +36,11 @@ static NSString *const funcVC = @"funcVC";
                            funcDec : @"利用分类去统一输入框的输入检测，利于维护",
                            funcVC : @"InputViewController"
                          },
+                       @{
+                         funcTitle : @"precisionNumber(对NSString进行扩展)",
+                         funcDec : @"对NSString进行扩展,实现字符串转Float精度保留以及字符串直接比较大小等",
+                         funcVC : @"PrecisionNumberVC"
+                       },
                        ];
 }
 

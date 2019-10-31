@@ -16,7 +16,25 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8t7-0G-qgF">
+                    <rect key="frame" x="0.0" y="846" width="414" height="50"/>
+                    <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="fjE-yg-xB5"/>
+                    </constraints>
+                    <state key="normal" title="退出"/>
+                    <connections>
+                        <action selector="back:" destination="-1" eventType="touchUpInside" id="CU5-lS-2MB"/>
+                    </connections>
+                </button>
+            </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="8t7-0G-qgF" secondAttribute="bottom" id="Ler-Mh-DHm"/>
+                <constraint firstAttribute="trailing" secondItem="8t7-0G-qgF" secondAttribute="trailing" id="b3n-V5-52d"/>
+                <constraint firstItem="8t7-0G-qgF" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="lHl-Xq-5SC"/>
+            </constraints>
             <point key="canvasLocation" x="132" y="118"/>
         </view>
     </objects>

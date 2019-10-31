@@ -49,6 +49,13 @@
     self.inputTextV.canOnlyInputNumber = YES;
     self.inputTextV.inputNumberDec = @"这个输入框只能输入数字";
 }
+- (IBAction)back:(UIButton *)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    [self.view endEditing:YES];
+}
 
 @end
