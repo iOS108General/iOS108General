@@ -41,6 +41,11 @@ static NSString *const funcVC = @"funcVC";
                          funcDec : @"对NSString进行扩展,实现字符串转Float精度保留以及字符串直接比较大小等",
                          funcVC : @"PrecisionNumberVC"
                        },
+                       @{
+                           funcTitle : @"FormatterInput(格式化输入)",
+                           funcDec : @"对输入框内文字输入进行指定任意几个位置插入空格，或者",
+                           funcVC : @"FormatterInputVC"
+                           },
                        ];
 }
 

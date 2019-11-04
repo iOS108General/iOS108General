@@ -18,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    /*
+     实现初衷：iOS JOSN 解析因为不明原因有时会出现精度丢失的情况，常用的FloatValue已经无法比较，现封装了 NSDecimalNumber 专门解析这种数据
+     实现后的效果：可自定义 N 位 小数内的比较以及相加减，并可自定义比较过程中是否采用四舍五入或只入不舍等计算规则
+     */
+    
     // 对字符串进行保留 3 位小数 ，采用 四舍五入 的保留规则
     NSString *floatStr = [@"我是5.65.5325" floatValueWithScale:3 type:NSRoundPlain];
     NSLog(@"%@",floatStr);
@@ -52,7 +57,7 @@
         NSLog(@"后者与前者相等");
     }
     
-    // 直接计算绝对差值
+    // 在采用 四舍五入 规则下， 保留一位小数后计算差值
     double addValue = [@"5.2" addingWithString:@"5.24" scale:1 type:NSRoundPlain];
     NSLog(@"%f",addValue);
 }

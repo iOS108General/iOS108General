@@ -24,7 +24,6 @@
     [super viewDidLoad];
     
     /*
-     
      实现初衷：文字输入检测如果在每个页面都实现一套正则太过麻烦并且不易于维护
      实现后的效果：会自动去除非法字符，若设置了相关的 Dec 字段，会弹出相应的文字提示
      可自行实现 UIApplication+CheckInput 文件中 inputUnlawfulnessShowMessageToWindow 方法自定义提示效果
