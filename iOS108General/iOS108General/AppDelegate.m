@@ -24,7 +24,6 @@
     UINavigationController *naviVC = [[UINavigationController alloc] initWithRootViewController:[[ViewController alloc] init]];
     naviVC.navigationBar.translucent = NO;
     
-    
     self.window.rootViewController = naviVC;
     [self.window makeKeyAndVisible];
     return YES;

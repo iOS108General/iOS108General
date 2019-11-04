@@ -62,9 +62,4 @@
     NSLog(@"%f",addValue);
 }
 
-- (IBAction)back:(UIButton *)sender {
-    [self dismissViewControllerAnimated:YES completion:nil];
-}
-
-
 @end

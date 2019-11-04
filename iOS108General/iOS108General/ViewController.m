@@ -43,7 +43,7 @@ static NSString *const funcVC = @"funcVC";
                        },
                        @{
                            funcTitle : @"FormatterInput(格式化输入)",
-                           funcDec : @"对输入框内文字输入进行指定任意几个位置插入空格，或者",
+                           funcDec : @"对输入框内文字输入进行指定任意几个位置插入空格，或者固定长度插入空格",
                            funcVC : @"FormatterInputVC"
                            },
                        ];
@@ -78,7 +78,7 @@ static NSString *const funcVC = @"funcVC";
     NSDictionary *data = self.dataArray[indexPath.row];
     UIViewController *vc = [NSClassFromString(data[funcVC]) new];
     if (vc) {
-        [self presentViewController:vc animated:YES completion:nil];
+        [self.navigationController pushViewController:vc animated:YES];
     }
 }
 
