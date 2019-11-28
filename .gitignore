@@ -1,1 +1,9 @@
 Breakpoints_v2.xcbkptlist
+
+*~
+.DS_Store
+*.xcodeproj
+*.xcworkspace
+xcuserdata
+*.lock
+Pods
