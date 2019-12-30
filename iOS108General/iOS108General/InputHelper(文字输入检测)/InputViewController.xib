@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
-    <device id="retina6_1" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -23,34 +21,40 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="以下所有输入框默认都不允许输入表情" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QgT-ma-x01">
+                    <rect key="frame" x="1" y="80" width="412" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
                 <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="只能输入数字" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KFv-rj-kKk">
-                    <rect key="frame" x="52" y="80" width="311" height="34"/>
+                    <rect key="frame" x="57" y="152" width="311" height="34"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
                 <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="不能输入汉字和符号" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6eM-oE-isS">
-                    <rect key="frame" x="52" y="122" width="311" height="34"/>
+                    <rect key="frame" x="57" y="194" width="311" height="34"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
                 <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="只能输入订单号【数字字母下划线】" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h6x-4t-KZL">
-                    <rect key="frame" x="52" y="171" width="311" height="34"/>
+                    <rect key="frame" x="57" y="243" width="311" height="34"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="只能输入数字" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="AyD-oa-To2">
-                    <rect key="frame" x="52" y="221" width="295" height="57"/>
+                    <rect key="frame" x="57" y="293" width="295" height="57"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                 </textView>
-                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="无限制&amp;￥%😄" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PS9-z7-ok3">
-                    <rect key="frame" x="52" y="299" width="295" height="57"/>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="随便输入点什么" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PS9-z7-ok3">
+                    <rect key="frame" x="57" y="371" width="295" height="57"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -59,6 +63,12 @@
                 </textView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="QgT-ma-x01" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="80" id="J2f-A7-N9X"/>
+                <constraint firstItem="QgT-ma-x01" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="1" id="MGk-yF-xjZ"/>
+                <constraint firstItem="QgT-ma-x01" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="V2F-0z-zlq"/>
+                <constraint firstAttribute="trailing" secondItem="QgT-ma-x01" secondAttribute="trailing" constant="1" id="vIU-Su-lPk"/>
+            </constraints>
             <point key="canvasLocation" x="131.8840579710145" y="105.80357142857143"/>
         </view>
     </objects>
