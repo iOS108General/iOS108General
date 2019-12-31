@@ -7,15 +7,15 @@
 //
 
 #import "UIApplication+CheckInput.h"
-#import "UITextField+CheckInput.h"
-#import "UITextView+CheckInput.h"
+#import "UIView+CheckInput.h"
+#import <objc/runtime.h>
 
 @implementation UIApplication (CheckInput)
 
 - (void)inputUnlawfulnessShowMessageToWindow:(NSString *)string
 {
     if (string.length) {
-        [[[UIAlertView alloc] initWithTitle:@"提示" message:string delegate:nil cancelButtonTitle:@"确定" otherButtonTitles: nil] show];
+        [[[UIAlertView alloc] initWithTitle:@"违法输入" message:string delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil] show];
     }
 }
 
@@ -116,6 +116,20 @@
         nowInputData = checkData;
     }
     
+    // 自定义规则
+    if (textView.customRules.length) {
+        NSCharacterSet *numberSet = [[NSCharacterSet characterSetWithCharactersInString:textView.customRules] invertedSet];
+        checkData = [[nowInputData componentsSeparatedByCharactersInSet:numberSet] componentsJoinedByString:@""];
+        [textView setValue:checkData forKey:@"text"];
+        if (nowInputData.length > checkData.length) {
+            !textView.customRulesDec ?: [toastMessage addObject:textView.customRulesDec];
+        }
+        nowInputData = checkData;
+    } else {
+        [textView setValue:checkData forKey:@"text"];
+        nowInputData = checkData;
+    }
+    
     [self inputUnlawfulnessShowMessageToWindow:[toastMessage componentsJoinedByString:@","]];
 }
 
@@ -159,11 +173,23 @@
 }
 
 // MARK: -
-// MARK: 数字【包含小数点】输入检测方法
+// MARK: 数字【仅包含一位小数点】输入检测方法
 - (NSString *)checkInputIsNumber:(NSString *)inputText
 {
     NSCharacterSet *numberSet = [[NSCharacterSet characterSetWithCharactersInString:@"1234567890."] invertedSet];
     NSString *filtered = [[inputText componentsSeparatedByCharactersInSet:numberSet] componentsJoinedByString:@""];
+    NSArray *subStrArray = [filtered componentsSeparatedByString:@"."];
+    if (subStrArray.count>2) {
+        // 包含多个小数点
+        NSString *dataStr = @"";
+        for (NSInteger i = 0; i < subStrArray.count; i ++) {
+            dataStr = [dataStr stringByAppendingString:subStrArray[i]];
+            if (i == 0) {
+                dataStr = [dataStr stringByAppendingString:@"."];
+            }
+        }
+        filtered = dataStr;
+    }
     return filtered;
 }
 

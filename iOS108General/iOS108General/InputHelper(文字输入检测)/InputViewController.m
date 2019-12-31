@@ -7,8 +7,7 @@
 //
 
 #import "InputViewController.h"
-#import "UITextView+CheckInput.h"
-#import "UITextField+CheckInput.h"
+#import "UIView+CheckInput.h"
 
 @interface InputViewController ()
 
@@ -43,7 +42,7 @@
     
     // 只能输入订单号【数字，字母，下划线，中横杠】
     self.thirdInput.canOnlyInputOrderNumber = YES;
-    self.seconedInput.inputOrderNumberDec = @"这个输入框只能输入 数字，字母，下划线，中横杠";
+    self.thirdInput.inputOrderNumberDec = @"这个输入框只能输入 数字，字母，下划线，中横杠";
     // 只能输入数字
     self.inputTextV.canOnlyInputNumber = YES;
     self.inputTextV.inputNumberDec = @"这个输入框只能输入数字";

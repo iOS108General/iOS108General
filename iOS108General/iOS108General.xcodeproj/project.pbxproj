@@ -15,8 +15,7 @@
 		1D50B42523680899001456A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D50B42323680899001456A2 /* LaunchScreen.storyboard */; };
 		1D50B42823680899001456A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D50B42723680899001456A2 /* main.m */; };
 		1D50B43823680FB4001456A2 /* UIApplication+CheckInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D50B43423680FB4001456A2 /* UIApplication+CheckInput.m */; };
-		1D50B43923680FB4001456A2 /* UITextField+CheckInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D50B43623680FB4001456A2 /* UITextField+CheckInput.m */; };
-		1D50B43A23680FB4001456A2 /* UITextView+CheckInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D50B43723680FB4001456A2 /* UITextView+CheckInput.m */; };
+		1D70E64723B9EA68001F9C01 /* UIView+CheckInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D70E64523B9EA68001F9C01 /* UIView+CheckInput.m */; };
 		1D7FD5802370215700F21922 /* UITextField+Format.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7FD57F2370215700F21922 /* UITextField+Format.m */; };
 		1D7FD5842370242600F21922 /* FormatterInputVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7FD5822370242600F21922 /* FormatterInputVC.m */; };
 		1D7FD5852370242600F21922 /* FormatterInputVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D7FD5832370242600F21922 /* FormatterInputVC.xib */; };
@@ -44,11 +43,9 @@
 		1D50B42623680899001456A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D50B42723680899001456A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1D50B43223680FB4001456A2 /* UIApplication+CheckInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+CheckInput.h"; sourceTree = "<group>"; };
-		1D50B43323680FB4001456A2 /* UITextField+CheckInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+CheckInput.h"; sourceTree = "<group>"; };
 		1D50B43423680FB4001456A2 /* UIApplication+CheckInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+CheckInput.m"; sourceTree = "<group>"; };
-		1D50B43523680FB4001456A2 /* UITextView+CheckInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+CheckInput.h"; sourceTree = "<group>"; };
-		1D50B43623680FB4001456A2 /* UITextField+CheckInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+CheckInput.m"; sourceTree = "<group>"; };
-		1D50B43723680FB4001456A2 /* UITextView+CheckInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+CheckInput.m"; sourceTree = "<group>"; };
+		1D70E64523B9EA68001F9C01 /* UIView+CheckInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CheckInput.m"; sourceTree = "<group>"; };
+		1D70E64623B9EA68001F9C01 /* UIView+CheckInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CheckInput.h"; sourceTree = "<group>"; };
 		1D7FD57E2370215700F21922 /* UITextField+Format.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+Format.h"; sourceTree = "<group>"; };
 		1D7FD57F2370215700F21922 /* UITextField+Format.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Format.m"; sourceTree = "<group>"; };
 		1D7FD5812370242600F21922 /* FormatterInputVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FormatterInputVC.h; sourceTree = "<group>"; };
@@ -143,12 +140,10 @@
 		1D50B43123680FA3001456A2 /* Catgory */ = {
 			isa = PBXGroup;
 			children = (
+				1D70E64623B9EA68001F9C01 /* UIView+CheckInput.h */,
+				1D70E64523B9EA68001F9C01 /* UIView+CheckInput.m */,
 				1D50B43223680FB4001456A2 /* UIApplication+CheckInput.h */,
 				1D50B43423680FB4001456A2 /* UIApplication+CheckInput.m */,
-				1D50B43323680FB4001456A2 /* UITextField+CheckInput.h */,
-				1D50B43623680FB4001456A2 /* UITextField+CheckInput.m */,
-				1D50B43523680FB4001456A2 /* UITextView+CheckInput.h */,
-				1D50B43723680FB4001456A2 /* UITextView+CheckInput.m */,
 			);
 			path = Catgory;
 			sourceTree = "<group>";
@@ -330,6 +325,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D70E64723B9EA68001F9C01 /* UIView+CheckInput.m in Sources */,
 				1D7FD5802370215700F21922 /* UITextField+Format.m in Sources */,
 				1DC28CC723681358008465BF /* InputViewController.m in Sources */,
 				1D50B43823680FB4001456A2 /* UIApplication+CheckInput.m in Sources */,
@@ -338,8 +334,6 @@
 				15FE123C23BADB1D00FE3F72 /* ShadowCornerViewController.m in Sources */,
 				1D50B41D23680898001456A2 /* ViewController.m in Sources */,
 				1D50B42823680899001456A2 /* main.m in Sources */,
-				1D50B43A23680FB4001456A2 /* UITextView+CheckInput.m in Sources */,
-				1D50B43923680FB4001456A2 /* UITextField+CheckInput.m in Sources */,
 				1DC28CCD23683612008465BF /* NSString+DecimalNumber.m in Sources */,
 				1D50B41A23680898001456A2 /* AppDelegate.m in Sources */,
 			);
