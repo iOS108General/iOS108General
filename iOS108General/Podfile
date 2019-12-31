@@ -6,4 +6,6 @@ target 'iOS108General' do
 
 pod 'ShadowCornerView'
 
+pod 'Masonry'
+
 end

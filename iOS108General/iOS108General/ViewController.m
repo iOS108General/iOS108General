@@ -46,6 +46,11 @@ static NSString *const funcVC = @"funcVC";
                            funcDec : @"对输入框内文字输入进行指定任意几个位置插入空格，或者固定长度插入空格",
                            funcVC : @"FormatterInputVC"
                            },
+                       @{
+                         funcTitle : @"Any side shadow and any corner round view.",
+                         funcDec : @"对一个view设置任意条边阴影同时任意个角圆角",
+                         funcVC : @"ShadowCornerViewController"
+                         },
                        ];
 }
 
