@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		123C343C25CF878B0039FF73 /* AfnEmployViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 123C343A25CF878B0039FF73 /* AfnEmployViewController.m */; };
+		123C343D25CF878B0039FF73 /* AfnEmployViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 123C343B25CF878B0039FF73 /* AfnEmployViewController.xib */; };
+		123C344525CF88C20039FF73 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 123C344225CF88C20039FF73 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		123C344625CF88C20039FF73 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 123C344325CF88C20039FF73 /* README.md */; };
+		123C345525CF94BE0039FF73 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 123C345425CF94BE0039FF73 /* NSArray+Log.m */; };
 		15FE123C23BADB1D00FE3F72 /* ShadowCornerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FE123B23BADB1D00FE3F72 /* ShadowCornerViewController.m */; };
 		1D50B41A23680898001456A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D50B41923680898001456A2 /* AppDelegate.m */; };
 		1D50B41D23680898001456A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D50B41C23680898001456A2 /* ViewController.m */; };
@@ -30,6 +35,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		123C343925CF878B0039FF73 /* AfnEmployViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AfnEmployViewController.h; sourceTree = "<group>"; };
+		123C343A25CF878B0039FF73 /* AfnEmployViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AfnEmployViewController.m; sourceTree = "<group>"; };
+		123C343B25CF878B0039FF73 /* AfnEmployViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AfnEmployViewController.xib; sourceTree = "<group>"; };
+		123C344225CF88C20039FF73 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		123C344325CF88C20039FF73 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		123C344425CF88C20039FF73 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		123C345325CF94BE0039FF73 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		123C345425CF94BE0039FF73 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
 		15FE123A23BADB1D00FE3F72 /* ShadowCornerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShadowCornerViewController.h; sourceTree = "<group>"; };
 		15FE123B23BADB1D00FE3F72 /* ShadowCornerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShadowCornerViewController.m; sourceTree = "<group>"; };
 		1D50B41523680898001456A2 /* iOS108General.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS108General.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +91,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		123C343825CF87700039FF73 /* AfnEmploy */ = {
+			isa = PBXGroup;
+			children = (
+				123C345225CF94BE0039FF73 /* NSArray(utf8转译) */,
+				123C344125CF88C20039FF73 /* JSONKit */,
+				123C343925CF878B0039FF73 /* AfnEmployViewController.h */,
+				123C343A25CF878B0039FF73 /* AfnEmployViewController.m */,
+				123C343B25CF878B0039FF73 /* AfnEmployViewController.xib */,
+			);
+			path = AfnEmploy;
+			sourceTree = "<group>";
+		};
+		123C344125CF88C20039FF73 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				123C344225CF88C20039FF73 /* JSONKit.m */,
+				123C344325CF88C20039FF73 /* README.md */,
+				123C344425CF88C20039FF73 /* JSONKit.h */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		123C345225CF94BE0039FF73 /* NSArray(utf8转译) */ = {
+			isa = PBXGroup;
+			children = (
+				123C345325CF94BE0039FF73 /* NSArray+Log.h */,
+				123C345425CF94BE0039FF73 /* NSArray+Log.m */,
+			);
+			path = "NSArray(utf8转译)";
+			sourceTree = "<group>";
+		};
 		15FE123923BADAEC00FE3F72 /* AnySideShadowAndCorner */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +152,7 @@
 		1D50B41723680898001456A2 /* iOS108General */ = {
 			isa = PBXGroup;
 			children = (
+				123C343825CF87700039FF73 /* AfnEmploy */,
 				15FE123923BADAEC00FE3F72 /* AnySideShadowAndCorner */,
 				1D7FD579237020B300F21922 /* FormatterInput(格式化输入) */,
 				1DC28CC9236835AD008465BF /* precisionNumber(对NSString进行扩展) */,
@@ -234,7 +279,7 @@
 		1D50B40D23680898001456A2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1030;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = iOS108;
 				TargetAttributes = {
 					1D50B41423680898001456A2 = {
@@ -266,6 +311,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D50B42523680899001456A2 /* LaunchScreen.storyboard in Resources */,
+				123C343D25CF878B0039FF73 /* AfnEmployViewController.xib in Resources */,
+				123C344625CF88C20039FF73 /* README.md in Resources */,
 				1D50B42223680899001456A2 /* Assets.xcassets in Resources */,
 				1D7FD5852370242600F21922 /* FormatterInputVC.xib in Resources */,
 				1D50B42023680898001456A2 /* Main.storyboard in Resources */,
@@ -326,10 +373,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D70E64723B9EA68001F9C01 /* UIView+CheckInput.m in Sources */,
+				123C345525CF94BE0039FF73 /* NSArray+Log.m in Sources */,
 				1D7FD5802370215700F21922 /* UITextField+Format.m in Sources */,
+				123C343C25CF878B0039FF73 /* AfnEmployViewController.m in Sources */,
 				1DC28CC723681358008465BF /* InputViewController.m in Sources */,
 				1D50B43823680FB4001456A2 /* UIApplication+CheckInput.m in Sources */,
 				1DC28CD12368371A008465BF /* PrecisionNumberVC.m in Sources */,
+				123C344525CF88C20039FF73 /* JSONKit.m in Sources */,
 				1D7FD5842370242600F21922 /* FormatterInputVC.m in Sources */,
 				15FE123C23BADB1D00FE3F72 /* ShadowCornerViewController.m in Sources */,
 				1D50B41D23680898001456A2 /* ViewController.m in Sources */,
@@ -387,6 +437,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -446,6 +497,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -480,7 +532,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iOS108General/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -498,7 +550,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iOS108General/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

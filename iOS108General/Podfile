@@ -7,5 +7,5 @@ target 'iOS108General' do
 pod 'ShadowCornerView'
 
 pod 'Masonry'
-
+pod 'AFNetworking'
 end

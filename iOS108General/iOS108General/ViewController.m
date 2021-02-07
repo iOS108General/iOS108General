@@ -51,6 +51,11 @@ static NSString *const funcVC = @"funcVC";
                          funcDec : @"对一个view设置任意条边阴影同时任意个角圆角",
                          funcVC : @"ShadowCornerViewController"
                          },
+                       @{
+                           funcTitle : @"AFN框架的使用",
+                           funcDec : @"block使用afn同时应对服务端返回异常3840以及1016的错误",
+                           funcVC : @"AfnEmployViewController"
+                         },
                        ];
 }
 
